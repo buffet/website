@@ -60,15 +60,27 @@ i {
 /* General */
 
 .main-container {
-    align-items: flex-start;
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 85vh;
     padding: 0;
     padding-top: 15px;
     margin: 0;
 }
 
+/* Site content */
+
+.container-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
 
 /* Info box */
 
@@ -94,6 +106,7 @@ ul {
 .portfolio-container {
     box-sizing: border-box;
     padding-top: 0;
+    padding-bottom: 10px;
 }
 
 .portfolio {
